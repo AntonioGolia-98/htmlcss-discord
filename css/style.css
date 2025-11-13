@@ -9,8 +9,6 @@
     background-color: orange;
 }
 
-
-
 .padding-3{
     padding: 3rem 0;
 }
@@ -20,11 +18,9 @@
     padding-bottom: 2rem;
 }
 
-
 .margin{
     margin-bottom: 0.2rem;
 }
-
 
 .bg-acquamarine{
     background-color: aquamarine;
@@ -49,7 +45,6 @@
 .box-w{
     border: 1px dotted white;
 }
-
 
 .box-lightblu{
     height: 300px;
@@ -115,6 +110,9 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
 /* nuovo */
 
 
