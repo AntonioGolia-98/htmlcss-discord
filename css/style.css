@@ -31,9 +31,6 @@
     background-color: blue;
 }
 
-.bg-grey{
-    background-color: grey;
-}
 
 .bg-darkgrey{
     background-color: rgb(90, 86, 86);
@@ -114,7 +111,9 @@
 
 
 
-/* nuovo */
+
+
+/* generali */
 
 ul li a  {
     text-decoration: none;
@@ -125,14 +124,35 @@ ul li a  {
     display: flex;
 }
 
+.box{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jumbo{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
 .flex-center{
     justify-content: center;
     align-items: center; 
 }
 
+.center{
+    text-align: center;
+}
+
+.text-white{
+    color:white;
+}
+
 .padding-top2{
     padding-top: 2rem;
 }
+
+/* header */
 
 .top-bar{
     justify-content: space-around;
@@ -150,21 +170,10 @@ ul li a  {
     padding: 0.4rem; 
 }
 
-.button-login{
-    padding: 0.5rem;
-    border-radius: 35%;
-    background-color: white;
-}
-
-.jumbo{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 5rem 0;
-}
-
-.button-jumbo{
-    padding: 0.8rem 1rem;
+.button{
+    padding: 0.6rem 1rem;
     border-radius: 20px;
+    margin-right: 1rem;
 }
 
 .button-white{
@@ -176,18 +185,11 @@ ul li a  {
     color: white;
 }
 
-.margin-x-2{
-    margin-right: 2rem;
+.button-lightblue{
+    background-color: #91A2DD;
+    color: white;
 }
 
-.center{
-    text-align: center;
-}
-
-
-.text-white{
-    color:white;
-}
 
 .bg-header{
     background-image: url(../img/jumbo.png);
@@ -195,10 +197,7 @@ ul li a  {
     padding-bottom: 5rem;
 }
 
-.box{
-    max-width: 1000px;
-    margin: 0 auto;
-}
+/* main */
 
 .box-image{
     width: 500px;
@@ -206,7 +205,7 @@ ul li a  {
 }   
 
 .box-text{
-    padding: 0 9rem;
+    padding: 2rem;
 }
 
 main p {
@@ -215,4 +214,17 @@ main p {
 
 main h2{
     font-size: xx-large;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
+.margin-x{
+    margin: 0 8rem;
+}
+
+.stelline{
+    background-image: url(../img/stars.svg);
+    display: cover;
 }
