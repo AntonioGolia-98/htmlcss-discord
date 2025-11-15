@@ -9,9 +9,10 @@
     background-color: orange;
 }
 
+
 .padding-3{
     padding: 3rem 0;
-}
+} 
 
 .padding-t1-b2{
     padding-top: 1rem;
@@ -115,6 +116,10 @@
 
 /* nuovo */
 
+ul li a  {
+    text-decoration: none;
+    color: white ;
+}
 
 .flex{
     display: flex;
@@ -152,7 +157,9 @@
 }
 
 .jumbo{
-    margin: 0 20rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5rem 0;
 }
 
 .button-jumbo{
@@ -184,5 +191,28 @@
 
 .bg-header{
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.box{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box-image{
+    width: 500px;
+    height: 500px;
+}   
+
+.box-text{
+    padding: 0 9rem;
+}
+
+main p {
+    font-size: small;
+}
+
+main h2{
+    font-size: xx-large;
 }
