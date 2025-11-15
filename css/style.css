@@ -3,44 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*strttura */
 
 .padding-3{
     padding: 3rem 0;
 } 
 
-.logo-end{
-    height: 20px; 
-    width: 50px; 
-    text-align: center;
+
+.padding-top2{
+    padding-top: 2rem;
 }
 
-.button-end{
-    height: 20px;
-    width: 50px;
+.padding-bottom4{
+    padding-bottom: 4rem;
+} 
+
+.flex{
+    display: flex;
 }
 
 .space{
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.flex-center{
+    justify-content: center;
+    align-items: center; 
+}
 
+.center{
+    text-align: center;
+}
 
-
-
-
-/* generali */
 
 ul li a  {
     text-decoration: none;
     color: white ;
 }
 
-.flex{
-    display: flex;
-}
 
 .box{
     max-width: 800px;
@@ -53,14 +53,6 @@ ul li a  {
     padding: 5rem 0;
 }
 
-.flex-center{
-    justify-content: center;
-    align-items: center; 
-}
-
-.center{
-    text-align: center;
-}
 
 .text-white{
     color:white;
@@ -68,10 +60,6 @@ ul li a  {
 
 .text-blue{
     color: #7A8BDB;
-}
-
-.padding-top2{
-    padding-top: 2rem;
 }
 
 .wave{
@@ -82,7 +70,6 @@ ul li a  {
 .wave-capovolta{
     transform: scaleY(-1);
 }
-/* header */
 
 .top-bar{
     justify-content: space-around;
@@ -126,8 +113,6 @@ ul li a  {
     background-size: cover;
     padding-bottom: 5rem;
 }
-
-/* main */
 
 .box-image{
     width: 500px;
@@ -187,9 +172,13 @@ footer h3 {
     height: 20px;
     width: 20px;
     background-color: white;
-    margin: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .padding-top1{
     padding-top: 1rem;
+}
+
+hr{
+    margin-bottom: 2rem;
 }
