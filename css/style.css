@@ -152,6 +152,14 @@ ul li a  {
     padding-top: 2rem;
 }
 
+.wave{
+    opacity: 4%;
+    display: block;
+}
+
+.wave-capovolta{
+    transform: scaleY(-1);
+}
 /* header */
 
 .top-bar{
