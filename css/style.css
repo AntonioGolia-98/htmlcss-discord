@@ -4,86 +4,10 @@
     box-sizing: border-box;
 }
 /*strttura */
-.box-menu-orange{
-    border: 1px dotted black;
-    background-color: orange;
-}
-
 
 .padding-3{
     padding: 3rem 0;
 } 
-
-.padding-t1-b2{
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.margin{
-    margin-bottom: 0.2rem;
-}
-
-.bg-acquamarine{
-    background-color: aquamarine;
-    padding: 0.5rem 8rem;  
-}
-.bg-blu{
-    background-color: blue;
-}
-
-
-.bg-darkgrey{
-    background-color: rgb(90, 86, 86);
-}
-
-.box-b{
-    border: 1px dotted black;
-}
-
-.box-w{
-    border: 1px dotted white;
-}
-
-.box-lightblu{
-    height: 300px;
-    width: 500px;
-    background-color: rgb(173, 191, 230);
-}
-
-.box-pink{
-    height: 300px;
-    width: 300px;
-    background-color: pink;
-}
-
-.box-green{
-    height: 500px;
-    width: 800px;
-    background-color: green;
-}
-
-.box-salmon{
-    height: 300px;
-    width: 266px;
-    background-color: salmon;
-}
-
-.box-ciano{
-    height: 300px;
-    width: 133px;
-    background-color:cyan;
-}
-
-.box-turchese{
-    height: 50px;
-    width: 800px;
-    background-color: turquoise;
-}
-
-.box-footer-salmon{
-    border: 1px dotted black;
-    background-color: salmon;
-}
 
 .logo-end{
     height: 20px; 
@@ -102,12 +26,6 @@
     align-items: center;
 }
 
-.bg{
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
@@ -146,6 +64,10 @@ ul li a  {
 
 .text-white{
     color:white;
+}
+
+.text-blue{
+    color: #7A8BDB;
 }
 
 .padding-top2{
@@ -216,16 +138,22 @@ ul li a  {
     padding: 2rem;
 }
 
-main p {
+main p,
+footer p {
     font-size: small;
 }
 
-main h2{
+main h2, 
+footer h3 {
     font-size: xx-large;
 }
 
 .bg-grey{
     background-color: #F6F6F6;
+}
+
+.bg-darkgrey{
+    background-color: #24272A;
 }
 
 .margin-x{
@@ -235,4 +163,33 @@ main h2{
 .stelline{
     background-image: url(../img/stars.svg);
     display: cover;
+}
+
+.col-30{
+    flex-basis: 30%;
+}
+
+.col-70{
+    flex-basis: 70%;
+}
+
+.col-25{
+    flex-basis: 25%;
+}
+
+.ita{
+    height: 15px;
+    width: 20px;
+    margin-right: 0.5rem;
+}
+
+.logo-social{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin: 0.3rem;
+}
+
+.padding-top1{
+    padding-top: 1rem;
 }
